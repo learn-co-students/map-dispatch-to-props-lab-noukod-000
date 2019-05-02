@@ -22,7 +22,7 @@ export class RestaurantInput extends Component {
   }
 
   handleOnSubmit = event => {
-    event.preventDefault();
+    event.preventDefault(); 
     this.props.addRestaurant(this.state);
   }
 
